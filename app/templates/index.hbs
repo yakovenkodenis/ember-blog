@@ -1,3 +1,7 @@
-<h2>Hey there!</h2>
+{{#each model as |post|}}
+	{{#blog-post post=post}}{{/blog-post}}
+{{/each}}
 
-{{outlet}}
+{{#create-new-post newPost=model createPost="createPost"}}{{/create-new-post}}
+
+{{!-- {{outlet}} --}}
