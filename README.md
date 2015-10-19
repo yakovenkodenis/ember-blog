@@ -1,7 +1,6 @@
 # Blog
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the simple Ember.js blog with the Firebase backend.
 
 ## Prerequisites
 
